@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Events project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tecla-Maximus-Ltda/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Adriano Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tecla-Maximus-Ltda/studion/issues"
+  },
+  "homepage": "https://github.com/Tecla-Maximus-Ltda/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
