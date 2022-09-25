@@ -87,7 +87,6 @@ ul {
 .logo-studion__subtitle {
   font-size: 0.875rem;
   font-weight: 400;
-  
 }
 
 .copy--primary {
@@ -101,7 +100,7 @@ ul {
 
 .slide {
   position: relative;
-  /* height: calc(100vh - 7.75rem); */
+  height: calc(90vh - 7.75rem);
 }
 
 .slide__background-image {
@@ -179,6 +178,10 @@ ul {
 }
 
 .institutional {
+  background-color: #fff;
+}
+
+.institutional__container {
   display: grid;
   grid-template-columns: auto auto;
   gap: 3.125rem;
@@ -218,15 +221,27 @@ ul {
 .btn--institutional:hover {
   color: var(--color-copy);
   background: unset;
+  box-shadow: 0 1rem 1rem #0006; /* x, y, blur, cor */
 }
 
 .quote {
-  background-image: url(./images/parallax.jpg);
-  min-height: 80vh;
+  /* background-image: url(./images/parallax.jpg); */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
+}
+
+.quote__image {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+
+  transform: translateX(-50%);
+
+  height: 100vh;
+  width: auto;
 }
 
 .quote__container {
