@@ -89,6 +89,7 @@ ul {
 .logo-studion__subtitle {
   font-size: 0.875rem;
   font-weight: 400;
+  display: block;
 }
 
 .copy--primary {
